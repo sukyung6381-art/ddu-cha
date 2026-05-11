@@ -1,0 +1,1368 @@
+{
+  "generatedAt": "2026-05-11T00:39:30.506Z",
+  "universe": 70,
+  "currentMonth": 5,
+  "steadyKings": [
+    {
+      "symbol": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "market": "US",
+      "yearsAllPositive": 10,
+      "totalReturnPct": 280.68,
+      "yearlyReturns": [
+        {
+          "year": 2016,
+          "pct": 23.43
+        },
+        {
+          "year": 2017,
+          "pct": 21.62
+        },
+        {
+          "year": 2018,
+          "pct": 3.01
+        },
+        {
+          "year": 2019,
+          "pct": 10.93
+        },
+        {
+          "year": 2020,
+          "pct": 2.37
+        },
+        {
+          "year": 2021,
+          "pct": 28.95
+        },
+        {
+          "year": 2022,
+          "pct": 3.31
+        },
+        {
+          "year": 2023,
+          "pct": 15.46
+        },
+        {
+          "year": 2024,
+          "pct": 27.09
+        },
+        {
+          "year": 2025,
+          "pct": 10.89
+        }
+      ]
+    }
+  ],
+  "steadyAlmost": [
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly",
+      "market": "US",
+      "yearsAllPositive": 9,
+      "totalReturnPct": 1175.43,
+      "yearlyReturns": [
+        {
+          "year": 2016,
+          "pct": -12.71
+        },
+        {
+          "year": 2017,
+          "pct": 14.83
+        },
+        {
+          "year": 2018,
+          "pct": 37.01
+        },
+        {
+          "year": 2019,
+          "pct": 13.58
+        },
+        {
+          "year": 2020,
+          "pct": 28.46
+        },
+        {
+          "year": 2021,
+          "pct": 63.6
+        },
+        {
+          "year": 2022,
+          "pct": 32.45
+        },
+        {
+          "year": 2023,
+          "pct": 59.34
+        },
+        {
+          "year": 2024,
+          "pct": 32.44
+        },
+        {
+          "year": 2025,
+          "pct": 39.21
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "market": "US",
+      "yearsAllPositive": 9,
+      "totalReturnPct": 771.7,
+      "yearlyReturns": [
+        {
+          "year": 2016,
+          "pct": 12
+        },
+        {
+          "year": 2017,
+          "pct": 37.66
+        },
+        {
+          "year": 2018,
+          "pct": 18.74
+        },
+        {
+          "year": 2019,
+          "pct": 55.26
+        },
+        {
+          "year": 2020,
+          "pct": 41.04
+        },
+        {
+          "year": 2021,
+          "pct": 51.21
+        },
+        {
+          "year": 2022,
+          "pct": -28.69
+        },
+        {
+          "year": 2023,
+          "pct": 56.8
+        },
+        {
+          "year": 2024,
+          "pct": 12.09
+        },
+        {
+          "year": 2025,
+          "pct": 14.74
+        }
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "market": "US",
+      "yearsAllPositive": 9,
+      "totalReturnPct": 719.72,
+      "yearlyReturns": [
+        {
+          "year": 2016,
+          "pct": 8.24
+        },
+        {
+          "year": 2017,
+          "pct": 55.06
+        },
+        {
+          "year": 2018,
+          "pct": 39.44
+        },
+        {
+          "year": 2019,
+          "pct": 20.89
+        },
+        {
+          "year": 2020,
+          "pct": 67.11
+        },
+        {
+          "year": 2021,
+          "pct": 11.41
+        },
+        {
+          "year": 2022,
+          "pct": -51.05
+        },
+        {
+          "year": 2023,
+          "pct": 65.11
+        },
+        {
+          "year": 2024,
+          "pct": 83.07
+        },
+        {
+          "year": 2025,
+          "pct": 5.19
+        }
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "market": "US",
+      "yearsAllPositive": 9,
+      "totalReturnPct": 583.01,
+      "yearlyReturns": [
+        {
+          "year": 2016,
+          "pct": 10.95
+        },
+        {
+          "year": 2017,
+          "pct": 55.96
+        },
+        {
+          "year": 2018,
+          "pct": 28.43
+        },
+        {
+          "year": 2019,
+          "pct": 23.03
+        },
+        {
+          "year": 2020,
+          "pct": 76.26
+        },
+        {
+          "year": 2021,
+          "pct": 2.38
+        },
+        {
+          "year": 2022,
+          "pct": -49.62
+        },
+        {
+          "year": 2023,
+          "pct": 80.88
+        },
+        {
+          "year": 2024,
+          "pct": 44.39
+        },
+        {
+          "year": 2025,
+          "pct": 5.21
+        }
+      ]
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard",
+      "market": "US",
+      "yearsAllPositive": 9,
+      "totalReturnPct": 486.36,
+      "yearlyReturns": [
+        {
+          "year": 2016,
+          "pct": 6.05
+        },
+        {
+          "year": 2017,
+          "pct": 46.6
+        },
+        {
+          "year": 2018,
+          "pct": 24.64
+        },
+        {
+          "year": 2019,
+          "pct": 58.28
+        },
+        {
+          "year": 2020,
+          "pct": 19.54
+        },
+        {
+          "year": 2021,
+          "pct": 0.67
+        },
+        {
+          "year": 2022,
+          "pct": -3.23
+        },
+        {
+          "year": 2023,
+          "pct": 22.66
+        },
+        {
+          "year": 2024,
+          "pct": 23.46
+        },
+        {
+          "year": 2025,
+          "pct": 8.41
+        }
+      ]
+    }
+  ],
+  "moonshot100x": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "market": "US",
+      "multiplier": 238.71,
+      "totalReturnPct": 23771.33,
+      "from": {
+        "date": "2016-05-11",
+        "close": 0.9
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 215.2
+      }
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "market": "US",
+      "multiplier": 124.71,
+      "totalReturnPct": 12370.96,
+      "from": {
+        "date": "2016-05-11",
+        "close": 3.65
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 455.19
+      }
+    }
+  ],
+  "moonshotTop10": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "market": "US",
+      "multiplier": 238.71,
+      "totalReturnPct": 23771.33,
+      "from": {
+        "date": "2016-05-11",
+        "close": 0.9
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 215.2
+      }
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "market": "US",
+      "multiplier": 124.71,
+      "totalReturnPct": 12370.96,
+      "from": {
+        "date": "2016-05-11",
+        "close": 3.65
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 455.19
+      }
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK하이닉스",
+      "market": "KR",
+      "multiplier": 69.85,
+      "totalReturnPct": 6884.73,
+      "from": {
+        "date": "2016-05-11",
+        "close": 26200
+      },
+      "to": {
+        "date": "2026-05-11",
+        "close": 1830000
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "market": "US",
+      "multiplier": 30.75,
+      "totalReturnPct": 2974.87,
+      "from": {
+        "date": "2016-05-11",
+        "close": 13.93
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 428.35
+      }
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "market": "US",
+      "multiplier": 29.89,
+      "totalReturnPct": 2889.22,
+      "from": {
+        "date": "2016-05-11",
+        "close": 14.39
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 430
+      }
+    },
+    {
+      "symbol": "009150.KS",
+      "name": "삼성전기",
+      "market": "KR",
+      "multiplier": 17.6,
+      "totalReturnPct": 1659.92,
+      "from": {
+        "date": "2016-05-11",
+        "close": 50400
+      },
+      "to": {
+        "date": "2026-05-11",
+        "close": 887000
+      }
+    },
+    {
+      "symbol": "247540.KQ",
+      "name": "에코프로비엠",
+      "market": "KR",
+      "multiplier": 14.4,
+      "totalReturnPct": 1339.87,
+      "from": {
+        "date": "2019-03-05",
+        "close": 15800
+      },
+      "to": {
+        "date": "2026-05-11",
+        "close": 227500
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "market": "US",
+      "multiplier": 12.68,
+      "totalReturnPct": 1168.27,
+      "from": {
+        "date": "2016-05-11",
+        "close": 23.13
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 293.32
+      }
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly",
+      "market": "US",
+      "multiplier": 12.43,
+      "totalReturnPct": 1142.89,
+      "from": {
+        "date": "2016-05-11",
+        "close": 76.31
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 948.45
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "market": "US",
+      "multiplier": 10.97,
+      "totalReturnPct": 997.26,
+      "from": {
+        "date": "2016-05-11",
+        "close": 36.53
+      },
+      "to": {
+        "date": "2026-05-08",
+        "close": 400.8
+      }
+    }
+  ],
+  "monthTop": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": 15.13,
+      "winRate": 0.83,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 8.44
+        },
+        {
+          "year": 2025,
+          "pct": 21.07
+        },
+        {
+          "year": 2024,
+          "pct": 32.02
+        },
+        {
+          "year": 2023,
+          "pct": 30.87
+        },
+        {
+          "year": 2022,
+          "pct": -4.41
+        },
+        {
+          "year": 2021,
+          "pct": 9.49
+        },
+        {
+          "year": 2020,
+          "pct": 25.55
+        },
+        {
+          "year": 2019,
+          "pct": -24.94
+        },
+        {
+          "year": 2018,
+          "pct": 11.03
+        },
+        {
+          "year": 2017,
+          "pct": 35.36
+        },
+        {
+          "year": 2016,
+          "pct": 29.78
+        },
+        {
+          "year": 2015,
+          "pct": 7.27
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": 11.64,
+      "winRate": 0.83,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 26.25
+        },
+        {
+          "year": 2025,
+          "pct": 14.57
+        },
+        {
+          "year": 2024,
+          "pct": 15.69
+        },
+        {
+          "year": 2023,
+          "pct": 31.8
+        },
+        {
+          "year": 2022,
+          "pct": 13.38
+        },
+        {
+          "year": 2021,
+          "pct": 1.95
+        },
+        {
+          "year": 2020,
+          "pct": 7.86
+        },
+        {
+          "year": 2019,
+          "pct": 2.24
+        },
+        {
+          "year": 2018,
+          "pct": 23.36
+        },
+        {
+          "year": 2017,
+          "pct": -17.84
+        },
+        {
+          "year": 2016,
+          "pct": 22.19
+        },
+        {
+          "year": 2015,
+          "pct": -1.72
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": 8.23,
+      "winRate": 0.92,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 2.07
+        },
+        {
+          "year": 2025,
+          "pct": 22.67
+        },
+        {
+          "year": 2024,
+          "pct": 6.89
+        },
+        {
+          "year": 2023,
+          "pct": 26.65
+        },
+        {
+          "year": 2022,
+          "pct": 0.66
+        },
+        {
+          "year": 2021,
+          "pct": 4.93
+        },
+        {
+          "year": 2020,
+          "pct": 12.16
+        },
+        {
+          "year": 2019,
+          "pct": -21.09
+        },
+        {
+          "year": 2018,
+          "pct": 9.41
+        },
+        {
+          "year": 2017,
+          "pct": 8.21
+        },
+        {
+          "year": 2016,
+          "pct": 5.67
+        },
+        {
+          "year": 2015,
+          "pct": 20.57
+        }
+      ]
+    },
+    {
+      "symbol": "011200.KS",
+      "name": "HMM",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": 8.12,
+      "winRate": 0.58,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": -4.73
+        },
+        {
+          "year": 2025,
+          "pct": 16.71
+        },
+        {
+          "year": 2024,
+          "pct": 15.38
+        },
+        {
+          "year": 2023,
+          "pct": -11.69
+        },
+        {
+          "year": 2022,
+          "pct": 12.09
+        },
+        {
+          "year": 2021,
+          "pct": 29.63
+        },
+        {
+          "year": 2020,
+          "pct": 34.81
+        },
+        {
+          "year": 2019,
+          "pct": -17.36
+        },
+        {
+          "year": 2018,
+          "pct": -3.11
+        },
+        {
+          "year": 2017,
+          "pct": 3.53
+        },
+        {
+          "year": 2016,
+          "pct": 28.57
+        },
+        {
+          "year": 2015,
+          "pct": -6.35
+        }
+      ]
+    },
+    {
+      "symbol": "028260.KS",
+      "name": "삼성물산",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": 7.51,
+      "winRate": 0.58,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 42.66
+        },
+        {
+          "year": 2025,
+          "pct": 22.59
+        },
+        {
+          "year": 2024,
+          "pct": -7.53
+        },
+        {
+          "year": 2023,
+          "pct": 0.82
+        },
+        {
+          "year": 2022,
+          "pct": 2.54
+        },
+        {
+          "year": 2021,
+          "pct": 4.92
+        },
+        {
+          "year": 2020,
+          "pct": -2.29
+        },
+        {
+          "year": 2019,
+          "pct": -10.39
+        },
+        {
+          "year": 2018,
+          "pct": -4.92
+        },
+        {
+          "year": 2017,
+          "pct": 12.24
+        },
+        {
+          "year": 2016,
+          "pct": -6.25
+        },
+        {
+          "year": 2015,
+          "pct": 35.69
+        }
+      ]
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK하이닉스",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": 5.86,
+      "winRate": 0.75,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 26.47
+        },
+        {
+          "year": 2025,
+          "pct": 9.95
+        },
+        {
+          "year": 2024,
+          "pct": 8.99
+        },
+        {
+          "year": 2023,
+          "pct": 20.4
+        },
+        {
+          "year": 2022,
+          "pct": -2.26
+        },
+        {
+          "year": 2021,
+          "pct": -3.42
+        },
+        {
+          "year": 2020,
+          "pct": 0.62
+        },
+        {
+          "year": 2019,
+          "pct": -19.08
+        },
+        {
+          "year": 2018,
+          "pct": 12.39
+        },
+        {
+          "year": 2017,
+          "pct": 2.89
+        },
+        {
+          "year": 2016,
+          "pct": 3.05
+        },
+        {
+          "year": 2015,
+          "pct": 10.37
+        }
+      ]
+    },
+    {
+      "symbol": "018260.KS",
+      "name": "삼성SDS",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": 5.82,
+      "winRate": 0.58,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 4.61
+        },
+        {
+          "year": 2025,
+          "pct": 1.09
+        },
+        {
+          "year": 2024,
+          "pct": -3.28
+        },
+        {
+          "year": 2023,
+          "pct": 4.19
+        },
+        {
+          "year": 2022,
+          "pct": -0.34
+        },
+        {
+          "year": 2021,
+          "pct": 0
+        },
+        {
+          "year": 2020,
+          "pct": 21.73
+        },
+        {
+          "year": 2019,
+          "pct": -6.55
+        },
+        {
+          "year": 2018,
+          "pct": -8.46
+        },
+        {
+          "year": 2017,
+          "pct": 16.85
+        },
+        {
+          "year": 2016,
+          "pct": 8.93
+        },
+        {
+          "year": 2015,
+          "pct": 31.12
+        }
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": 5.2,
+      "winRate": 0.67,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": -4.96
+        },
+        {
+          "year": 2025,
+          "pct": 6.51
+        },
+        {
+          "year": 2024,
+          "pct": 16.3
+        },
+        {
+          "year": 2023,
+          "pct": 21.94
+        },
+        {
+          "year": 2022,
+          "pct": -1.01
+        },
+        {
+          "year": 2021,
+          "pct": -1.24
+        },
+        {
+          "year": 2020,
+          "pct": 1.07
+        },
+        {
+          "year": 2019,
+          "pct": -9.38
+        },
+        {
+          "year": 2018,
+          "pct": 12.22
+        },
+        {
+          "year": 2017,
+          "pct": 4.97
+        },
+        {
+          "year": 2016,
+          "pct": 10.16
+        },
+        {
+          "year": 2015,
+          "pct": 5.78
+        }
+      ]
+    },
+    {
+      "symbol": "035720.KS",
+      "name": "카카오",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": 4.55,
+      "winRate": 0.58,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": -3.4
+        },
+        {
+          "year": 2025,
+          "pct": 12.22
+        },
+        {
+          "year": 2024,
+          "pct": -10.35
+        },
+        {
+          "year": 2023,
+          "pct": -3.93
+        },
+        {
+          "year": 2022,
+          "pct": -2.63
+        },
+        {
+          "year": 2021,
+          "pct": 7.42
+        },
+        {
+          "year": 2020,
+          "pct": 41.29
+        },
+        {
+          "year": 2019,
+          "pct": 1.22
+        },
+        {
+          "year": 2018,
+          "pct": -9.61
+        },
+        {
+          "year": 2017,
+          "pct": 6.7
+        },
+        {
+          "year": 2016,
+          "pct": 3.21
+        },
+        {
+          "year": 2015,
+          "pct": 12.46
+        }
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": 4.39,
+      "winRate": 0.83,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 0.93
+        },
+        {
+          "year": 2025,
+          "pct": 10.8
+        },
+        {
+          "year": 2024,
+          "pct": -5.25
+        },
+        {
+          "year": 2023,
+          "pct": 11.66
+        },
+        {
+          "year": 2022,
+          "pct": 2.26
+        },
+        {
+          "year": 2021,
+          "pct": 0.22
+        },
+        {
+          "year": 2020,
+          "pct": 12.44
+        },
+        {
+          "year": 2019,
+          "pct": -4.39
+        },
+        {
+          "year": 2018,
+          "pct": 11.25
+        },
+        {
+          "year": 2017,
+          "pct": 5
+        },
+        {
+          "year": 2016,
+          "pct": 4.82
+        },
+        {
+          "year": 2015,
+          "pct": 3
+        }
+      ]
+    }
+  ],
+  "monthWorst": [
+    {
+      "symbol": "005490.KS",
+      "name": "POSCO홀딩스",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": -3.7,
+      "winRate": 0.25,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 1.39
+        },
+        {
+          "year": 2025,
+          "pct": -2.15
+        },
+        {
+          "year": 2024,
+          "pct": -7.52
+        },
+        {
+          "year": 2023,
+          "pct": -5.76
+        },
+        {
+          "year": 2022,
+          "pct": -1.37
+        },
+        {
+          "year": 2021,
+          "pct": -3.53
+        },
+        {
+          "year": 2020,
+          "pct": 1.4
+        },
+        {
+          "year": 2019,
+          "pct": -6.5
+        },
+        {
+          "year": 2018,
+          "pct": -8.86
+        },
+        {
+          "year": 2017,
+          "pct": 2.55
+        },
+        {
+          "year": 2016,
+          "pct": -8.97
+        },
+        {
+          "year": 2015,
+          "pct": -5.06
+        }
+      ]
+    },
+    {
+      "symbol": "051910.KS",
+      "name": "LG화학",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": -2.65,
+      "winRate": 0.25,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": -1.17
+        },
+        {
+          "year": 2025,
+          "pct": -6.05
+        },
+        {
+          "year": 2024,
+          "pct": -13.21
+        },
+        {
+          "year": 2023,
+          "pct": -7.1
+        },
+        {
+          "year": 2022,
+          "pct": 11.22
+        },
+        {
+          "year": 2021,
+          "pct": -9.7
+        },
+        {
+          "year": 2020,
+          "pct": 8.47
+        },
+        {
+          "year": 2019,
+          "pct": -7.24
+        },
+        {
+          "year": 2018,
+          "pct": -0.15
+        },
+        {
+          "year": 2017,
+          "pct": 9.82
+        },
+        {
+          "year": 2016,
+          "pct": -8.45
+        },
+        {
+          "year": 2015,
+          "pct": -8.27
+        }
+      ]
+    },
+    {
+      "symbol": "251270.KS",
+      "name": "넷마블",
+      "market": "KR",
+      "month": 5,
+      "avgReturnPct": -1.8,
+      "winRate": 0.4,
+      "sampleYears": 10,
+      "history": [
+        {
+          "year": 2026,
+          "pct": -12.63
+        },
+        {
+          "year": 2025,
+          "pct": 13.18
+        },
+        {
+          "year": 2024,
+          "pct": 5.06
+        },
+        {
+          "year": 2023,
+          "pct": -15.43
+        },
+        {
+          "year": 2022,
+          "pct": -10.22
+        },
+        {
+          "year": 2021,
+          "pct": 10.71
+        },
+        {
+          "year": 2020,
+          "pct": -0.22
+        },
+        {
+          "year": 2019,
+          "pct": -9.13
+        },
+        {
+          "year": 2018,
+          "pct": 5.72
+        },
+        {
+          "year": 2017,
+          "pct": -5
+        }
+      ]
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": -1.39,
+      "winRate": 0.42,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": -2.58
+        },
+        {
+          "year": 2025,
+          "pct": 0.49
+        },
+        {
+          "year": 2024,
+          "pct": -2.98
+        },
+        {
+          "year": 2023,
+          "pct": -5.22
+        },
+        {
+          "year": 2022,
+          "pct": 0.5
+        },
+        {
+          "year": 2021,
+          "pct": 2.45
+        },
+        {
+          "year": 2020,
+          "pct": 0.31
+        },
+        {
+          "year": 2019,
+          "pct": -7.61
+        },
+        {
+          "year": 2018,
+          "pct": -5.07
+        },
+        {
+          "year": 2017,
+          "pct": 3.98
+        },
+        {
+          "year": 2016,
+          "pct": -0.05
+        },
+        {
+          "year": 2015,
+          "pct": -0.88
+        }
+      ]
+    },
+    {
+      "symbol": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "market": "US",
+      "month": 5,
+      "avgReturnPct": -1.32,
+      "winRate": 0.33,
+      "sampleYears": 12,
+      "history": [
+        {
+          "year": 2026,
+          "pct": 0.62
+        },
+        {
+          "year": 2025,
+          "pct": -4.95
+        },
+        {
+          "year": 2024,
+          "pct": 3.97
+        },
+        {
+          "year": 2023,
+          "pct": -2.75
+        },
+        {
+          "year": 2022,
+          "pct": -0.69
+        },
+        {
+          "year": 2021,
+          "pct": 3.68
+        },
+        {
+          "year": 2020,
+          "pct": 1.59
+        },
+        {
+          "year": 2019,
+          "pct": -8.9
+        },
+        {
+          "year": 2018,
+          "pct": -1.83
+        },
+        {
+          "year": 2017,
+          "pct": -0.1
+        },
+        {
+          "year": 2016,
+          "pct": -4.32
+        },
+        {
+          "year": 2015,
+          "pct": -2.17
+        }
+      ]
+    }
+  ]
+}

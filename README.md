@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tickr
 
-## Getting Started
+한국(KOSPI·KOSDAQ)과 미국(NASDAQ·NYSE) 주식의 시세·차트를 한 곳에서 보는 웹서비스.
 
-First, run the development server:
+## 기술 스택
+
+| 영역 | 선택 |
+|---|---|
+| Framework | Next.js 16 (App Router) + TypeScript |
+| 스타일 | Tailwind CSS v4 |
+| 차트 | [lightweight-charts](https://tradingview.github.io/lightweight-charts/) (TradingView 무료 차트) |
+| 데이터 페칭 | TanStack Query |
+| 인증·DB | Supabase (Postgres + Auth) |
+| 시세 — 미국 | Finnhub API |
+| 시세 — 한국 | 한국투자증권 KIS OpenAPI |
+
+## 로컬 실행
 
 ```bash
+# 환경변수 준비
+cp .env.local.example .env.local
+# 각 키 채우기
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 현재 진행 상황
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] 프로젝트 스캐폴딩 (Next.js + Tailwind + lightweight-charts)
+- [x] 랜딩 페이지 + 종목 검색 UI
+- [x] 차트 페이지 (현재는 목업 데이터)
+- [ ] Supabase 인증 연동
+- [ ] Finnhub로 실제 미국 시세 연결
+- [ ] KIS OpenAPI로 국내 시세 연결
+- [ ] WebSocket 실시간 푸시
+- [ ] 관심종목 저장
+- [ ] 배포 (Vercel + Supabase)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 폴더 구조
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/
+  page.tsx              # 랜딩
+  quote/[symbol]/       # 종목 상세 차트
+  layout.tsx
+components/
+  Header.tsx
+  StockChart.tsx        # lightweight-charts 래퍼
+  SymbolSearch.tsx
+lib/
+  utils.ts
+  mock-candles.ts       # 데모 데이터 (추후 실제 API로 교체)
+```
