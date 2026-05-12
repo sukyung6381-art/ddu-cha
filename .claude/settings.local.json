@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm --version)"
+      "Bash(npm --version)",
+      "Bash(~/.local/bin/gh auth *)",
+      "Bash('~/.local/bin/gh' repo *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(grep -E \"\\\\.env\\\\.local$\")"
     ]
   }
 }

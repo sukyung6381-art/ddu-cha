@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AuthButton } from "@/components/AuthButton";
 
 export function Header() {
   return (
@@ -10,14 +11,20 @@ export function Header() {
           </span>
           <span>뚜껑 차트</span>
         </Link>
-        <nav className="flex items-center gap-7 text-sm text-zinc-400">
-          <Link href="/halloffame" className="transition hover:text-white">
-            명예의 전당
-          </Link>
-          <Link href="/quote/NVDA" className="transition hover:text-white">
-            차트
-          </Link>
-        </nav>
+        <div className="flex items-center gap-7">
+          <nav className="hidden items-center gap-7 text-sm text-zinc-400 sm:flex">
+            <Link href="/" className="transition hover:text-white">
+              홈
+            </Link>
+            <Link href="/guess" className="transition hover:text-white">
+              주식 종가 맞추기
+            </Link>
+            <Link href="/halloffame" className="transition hover:text-white">
+              명예의 전당
+            </Link>
+          </nav>
+          <AuthButton />
+        </div>
       </div>
     </header>
   );
