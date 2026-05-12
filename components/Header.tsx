@@ -8,7 +8,7 @@ export function Header() {
           <span className="inline-flex size-6 items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-purple-500 text-[10px] font-bold text-white">
             뚜
           </span>
-          <span>뚜차</span>
+          <span>뚜껑 차트</span>
         </Link>
         <nav className="flex items-center gap-7 text-sm text-zinc-400">
           <Link href="/halloffame" className="transition hover:text-white">
