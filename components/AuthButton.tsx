@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import { UserRound } from "lucide-react";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 
@@ -44,12 +46,22 @@ export function AuthButton() {
 
   if (user) {
     return (
-      <button
-        onClick={signOut}
-        className="inline-flex h-8 items-center rounded-full border border-white/15 bg-white/[0.04] px-3 text-xs font-medium text-zinc-300 transition hover:border-white/30 hover:text-white"
-      >
-        로그아웃
-      </button>
+      <div className="flex items-center gap-1.5">
+        <Link
+          href="/profile"
+          aria-label="프로필"
+          title="프로필"
+          className="inline-flex size-8 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-zinc-300 transition hover:border-white/30 hover:text-white"
+        >
+          <UserRound className="size-4" />
+        </Link>
+        <button
+          onClick={signOut}
+          className="inline-flex h-8 items-center rounded-full border border-white/15 bg-white/[0.04] px-3 text-xs font-medium text-zinc-300 transition hover:border-white/30 hover:text-white"
+        >
+          로그아웃
+        </button>
+      </div>
     );
   }
 
