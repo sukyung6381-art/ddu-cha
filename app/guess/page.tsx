@@ -77,7 +77,7 @@ export default async function GuessPage({ searchParams }: Props) {
               className="hidden h-11 items-center gap-2 rounded-full bg-[#3182F6] px-5 text-sm font-semibold text-white shadow-[0_0_24px_-8px_rgba(49,130,246,0.6)] transition hover:bg-[#1B64DA] sm:inline-flex"
             >
               <Plus className="size-4" />
-              챌린지 등록
+              챌린지 등록하기
             </Link>
           ) : (
             <span className="hidden h-11 items-center rounded-full border border-white/10 bg-white/[0.04] px-5 text-xs text-zinc-500 sm:inline-flex">
@@ -85,9 +85,14 @@ export default async function GuessPage({ searchParams }: Props) {
             </span>
           )
         ) : (
-          <span className="hidden h-11 items-center rounded-full border border-white/10 bg-white/[0.04] px-5 text-xs text-zinc-500 sm:inline-flex">
-            로그인 후 등록 가능
-          </span>
+          <LoginRequiredLink
+            href="/guess/new"
+            loggedIn={false}
+            className="hidden h-11 items-center gap-2 rounded-full bg-[#3182F6] px-5 text-sm font-semibold text-white shadow-[0_0_24px_-8px_rgba(49,130,246,0.6)] transition hover:bg-[#1B64DA] sm:inline-flex"
+          >
+            <Plus className="size-4" />
+            챌린지 등록하기
+          </LoginRequiredLink>
         )}
       </header>
 
@@ -166,12 +171,12 @@ export default async function GuessPage({ searchParams }: Props) {
       {user && regWindow.open && (
         <Link
           href="/guess/new"
-          aria-label="챌린지 등록"
+          aria-label="챌린지 등록하기"
           className="fixed bottom-5 right-5 z-30 inline-flex items-center gap-2 rounded-full bg-[#3182F6] px-5 py-3.5 text-sm font-semibold text-white shadow-[0_10px_30px_-6px_rgba(49,130,246,0.7)] transition hover:bg-[#1B64DA] sm:hidden"
           style={{ marginBottom: "env(safe-area-inset-bottom)" }}
         >
           <Plus className="size-4" />
-          챌린지 등록
+          챌린지 등록하기
         </Link>
       )}
     </div>

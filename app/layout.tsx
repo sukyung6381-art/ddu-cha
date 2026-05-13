@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tickr — 한미 주식 차트",
+  title: { template: "뚜껑 차트", default: "뚜껑 차트" },
   description: "KOSPI·KOSDAQ·NASDAQ·NYSE 종목 시세와 차트를 한 곳에서.",
 };
 
