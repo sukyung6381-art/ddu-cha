@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Plus, Users, Clock, Trophy } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import { registrationWindow, formatRemaining } from "@/lib/guess/rules";
+import { LoginRequiredLink } from "@/components/LoginRequiredLink";
 
 export const metadata = { title: "종가 챌린지 — 뚜껑 차트" };
 
@@ -155,6 +156,7 @@ export default async function GuessPage({ searchParams }: Props) {
               key={c.id}
               c={c}
               pickCount={pickCounts.get(c.id) ?? 0}
+              loggedIn={!!user}
             />
           ))}
         </div>
@@ -220,17 +222,19 @@ type ChallengeRowProps = {
     return_b: number | null;
   };
   pickCount: number;
+  loggedIn: boolean;
 };
 
-function ChallengeRow({ c, pickCount }: ChallengeRowProps) {
+function ChallengeRow({ c, pickCount, loggedIn }: ChallengeRowProps) {
   const isClosed = c.status !== "open";
   const created = new Date(c.created_at);
   const relative = formatRelative(created);
 
   return (
-    <Link
+    <LoginRequiredLink
       href={`/guess/${c.id}`}
-      className="group flex flex-wrap items-center gap-4 rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5 transition hover:border-white/15 hover:bg-white/[0.04]"
+      loggedIn={loggedIn}
+      className="group flex w-full flex-wrap items-center gap-4 rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5 transition hover:border-white/15 hover:bg-white/[0.04]"
     >
       <div className="flex flex-1 items-center gap-4">
         <SideBadge name={c.name_a} side="A" winner={c.winner === "A"} closed={isClosed} returnPct={c.return_a} />
@@ -257,7 +261,7 @@ function ChallengeRow({ c, pickCount }: ChallengeRowProps) {
           <span className="hidden sm:inline">@{c.creator_name}</span>
         )}
       </div>
-    </Link>
+    </LoginRequiredLink>
   );
 }
 
